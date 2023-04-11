@@ -2,6 +2,7 @@ import Link from "next/link";
 import { logger } from "../../components/Logger";
 import Layout from "../../components/Layout";
 import * as http from "http";
+const { ApolloClient } = require('@apollo/client')
 
 function Post({ post }) {
   return (
